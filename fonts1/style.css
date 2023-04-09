@@ -1,0 +1,19 @@
+.great_title {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.great_text {
+    font-size: 2rem;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+/*------------------------------------------*/
+
+.greet_text-1 {
+     font-family: 'Pacifico', cursive;;
+}
+
+.greet_text-2 { 
+    font-family: 'Marck Script', cursive;
+}
