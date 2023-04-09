@@ -11,9 +11,12 @@
 /*------------------------------------------*/
 
 .greet_text-1 {
-     font-family: 'Pacifico', cursive;;
+     font-family: 'Pacifico', cursive;
+     font-weight: 500;
 }
 
 .greet_text-2 { 
     font-family: 'Marck Script', cursive;
+    font-weight: 500;
+   
 }
