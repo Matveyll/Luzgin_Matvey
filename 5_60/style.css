@@ -1,0 +1,19 @@
+p{
+    font-style: italic;
+    color: blue;
+  }
+  .name {
+    font-weight: bold;
+    font-size: x-large;
+    font-style: normal;
+    color: black;
+    text-transform: capitalize;
+  }
+  .both{
+    font-style: normal;
+    color: green;
+  }
+  .date{
+    font-style: normal;
+    color: red;
+  }

@@ -1,0 +1,15 @@
+div {
+    background: 
+        url(5.gif) top left no-repeat,
+        url(4.gif) bottom left no-repeat,
+        url(7.gif) top right no-repeat,
+        url(6.gif) bottom right no-repeat,
+        url(2.gif) repeat-y,
+        url(8.gif) right repeat-y,
+        url(3.gif) top repeat-x,
+        url(1.gif) bottom repeat-x;
+    padding: 50px;
+    text-align: center;
+             
+    
+     }
