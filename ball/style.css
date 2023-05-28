@@ -1,0 +1,38 @@
+.wrapper {
+    height: 50vh;
+    padding: 20px;
+  }
+  
+  .ball-img {
+    background-image: url(1.png), url(1.png),
+      url(1.png), url(1.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top left, top right, bottom left, bottom right;
+    background-size: 70px;
+  }
+  
+  .menu {
+    float: left;
+    width: 20%;
+    background-color: #272e4a;
+    height: 100%;
+  }
+  
+  .content {
+    margin-left: 20%;
+    margin-right: 200px;
+    background-color: #2949c6;
+    height: 100%;
+  }
+  
+  .banner {
+    float: right;
+    width: 200px;
+    background-color: #332a9a;
+    height: 100%;
+  }
+  
+  .scroll {
+    overflow: auto;
+  }
+  
