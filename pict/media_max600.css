@@ -1,0 +1,31 @@
+@media all and (max-width:600px) {
+
+    .menu {
+        float: none;
+        width: 100%;
+    }
+
+    .background {
+        background: none;
+    }
+
+    .menu {
+        background-color: crimson;
+    }
+
+    p {
+        margin: 0px;
+    }
+
+    .menu ul li {
+        display: inline;
+    }
+
+    .content {
+        background-color: blueviolet;
+    }
+
+    .menu ul {
+        margin: 0px;
+    }
+}

@@ -1,0 +1,8 @@
+a::before {
+    content: url(extref.png);
+  }
+  @media print {
+    a[href^="https"]::after {
+      content: " на " attr(href) "";
+    }
+  }

@@ -1,0 +1,102 @@
+body {
+    padding: 10px;
+    height: 100vh;
+}
+
+.main {
+    overflow: hidden;
+    padding-bottom: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.7)),
+        url(assets/ball.png) repeat-y right top;
+    background-size: 60px;
+}
+
+.menu {
+    width: 300px;
+    float: left;
+    background-color: rgb(210, 168, 237);
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-left: 300px;
+    padding: 20px;
+    vertical-align: top;
+    overflow-x: auto;
+    overflow: hidden;
+}
+
+.content img {
+    float: left;
+    padding: 20px;
+}
+
+.header,
+.footer {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    color: blue;
+    background-color: rgb(130, 187, 231);
+}
+
+@media (max-width: 1000px) {
+    .menu {
+        width: 200px;
+    }
+
+    .content {
+        margin-left: 200px;
+        padding: 20px;
+    }
+
+    .header,
+    .footer {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .main {
+        background-size: 40px;
+    }
+}
+
+@media (max-width: 540px) {
+    .main {
+        background-image: none;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .content img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header,
+    .footer {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .menu {
+        float: none;
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+
+    .menu {
+        margin: 0 auto;
+    }
+}
