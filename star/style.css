@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    text-align: center;
+  }
+  .stars {
+    display: inline-block;
+    margin-top: 100px;
+  }
+  .stars > div {
+    display: inline-block;
+    float: right;
+    height: 77px;
+    width: 75px;
+    background: url(star0.png) no-repeat;
+    cursor: pointer;
+  }
+  
+  .stars > div:hover,
+  .stars > div:hover ~ div {
+    background: url(star1.png);
+  }
+  
+  .clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  

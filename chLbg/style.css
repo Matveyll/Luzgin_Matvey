@@ -1,0 +1,13 @@
+.info-block {
+    position: relative;
+    padding-left: 20px;
+  }
+  .info-logo {
+    position: absolute;
+    display: inline-block;
+    left: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background: url(extref.png) no-repeat;
+  }

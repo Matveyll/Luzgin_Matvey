@@ -1,0 +1,3 @@
+a::before {
+    content: url(extref\ \(1\).png);
+  }
