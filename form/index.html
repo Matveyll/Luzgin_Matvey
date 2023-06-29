@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>F</title>
+</head>
+<body>
+    <p>Для публикации вашей статьи, заполните пожалуйста следующую форму:</p>
+    <div class="form-wrapper">
+        <form method="post" action="test.com" target="_blank">
+            <div class="section">
+                <label><span class="text-left"> Название статьи:</span>
+                    <input type="text" name="title" />
+                </label>
+            </div>
+
+            <div class="section">
+                <label>
+                    <span class="text-left"> Рубрика:</span>
+
+                    <select name="rubric">
+                        <option value="1">компьютерная техника</option>
+                        <option value="2">графика и дизайн</option>
+                        <option value="3" selected="">программирование</option>
+                    </select></label>
+            </div>
+
+            <div class="section">
+                <span class="text-left"> Публикация:</span>
+
+                <label class="radio-wrapper"><input type="radio" name="public" value="1" />
+                    <span>на сайте</span></label>
+
+                <label class="radio-wrapper">
+                    <input type="radio" name="public" value="2" />
+                    <span>в журнале</span></label>
+
+                <label class="radio-wrapper">
+                    <input type="radio" name="public" value="3" />
+                    <span>на сайте и в журнале</span></label>
+            </div>
+
+            <div class="section">
+                <span>Разрешить комментарии:</span>
+                <input type="checkbox" name="allowComments" checked />
+            </div>
+
+            <div class="section">
+                <label>Текст статьи:
+                    <textarea name="allowComments"></textarea>
+                </label>
+            </div>
+
+            <input type="submit" value="Опубликовать" />
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+ody {
+    padding: 10px;
+    height: 100vh;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.header,
+.footer {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    color: blue;
+    background-color: rgb(130, 187, 231);
+}
+
+.main {
+    overflow: hidden;
+    padding-bottom: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.7)),
+        url(assets/ball.png) repeat-y right top;
+    background-size: 60px;
+}
+
+.menu {
+    width: 300px;
+    float: left;
+    background-color: rgb(33, 2, 53);
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-left: 300px;
+    padding: 20px;
+    vertical-align: top;
+    overflow-x: auto;
+    overflow: hidden;
+}
+
+.content img {
+    float: left;
+    padding: 20px;
+}
+
+.footer {
+    clear: both;
+}
+
+.fix {
+    position: fixed;
+    width: 80px;
+    top: 30px;
+    right: 40px;
+    padding: 10px;
+    background-color: rgb(39, 30, 35);
+}
+
+.fix>a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
