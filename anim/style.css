@@ -1,0 +1,30 @@
+        .box {
+            height: 200px;
+            width: 200px;
+        }
+
+        .animation {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(97, 171, 171);
+            animation: anim 5s infinite;
+        }
+
+        @keyframes anim {
+            from {
+                border-radius: 0px;
+            }
+
+            50% {
+                margin-left: 100px;
+                border-radius: 25px;
+            }
+
+            100% {
+                border-radius: 100px;
+                width: 0;
+                height: 0;
+            }
+        }
+
+       

@@ -1,0 +1,21 @@
+@media all and (max-width:600px) {
+
+    .flex{
+        flex-direction: column;
+    }
+    .menu ul li {
+        display: inline;
+    }
+    .content{
+        background: none;
+    }
+    .menu{
+        order: 2;
+    }
+    .content{
+        order: 1;
+    }
+    img {
+        float: none;
+    }
+    }

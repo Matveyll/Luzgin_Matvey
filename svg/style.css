@@ -1,0 +1,5 @@
+        polygon:hover {
+            fill: rgb(43, 51, 54);
+            stroke: rgb(119, 255, 187);
+            transition-duration: 5s;
+        }

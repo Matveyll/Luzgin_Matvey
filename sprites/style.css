@@ -1,0 +1,16 @@
+.sprite{
+    width: 47px;
+    height: 110px;
+    animation: scorp 1s steps(8) infinite;
+}
+
+@keyframes scorp {
+    from {
+        background: url(img/949-9493148_scorpion-by-handtoeknee-sub-zero-sprite-sheet.png) 0px -115px;
+    }
+
+    to {
+        background: url(img/949-9493148_scorpion-by-handtoeknee-sub-zero-sprite-sheet.png) -400px -115px;
+    }
+
+}

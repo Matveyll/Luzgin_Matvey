@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    width: 585px;
+    height: 700px;
+    overflow: auto;
+}
+
+a {
+    display: block;
+}
