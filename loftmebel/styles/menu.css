@@ -1,0 +1,46 @@
+.main-menu {
+    margin-bottom: 20px;
+  }
+  .menu-logo {
+    float: left;
+    width: 112.96px;
+    height: 50px;
+    margin-right: 37px;
+    background: url(../assets/LOGO.png) no-repeat center;
+  }
+  
+  .menu-input {
+    float: left;
+    width: 834px;
+    height: 50px;
+    margin-right: 37px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    text-indent: 40px;
+    background: url(../assets/search-icon.png) no-repeat 15px 18px;
+  }
+  .menu-profile {
+    float: right;
+    height: 50px;
+  }
+  
+  .menu-profile > span:not(:last-child) {
+    margin-right: 19px;
+  }
+  .menu-profile > span {
+    display: inline-block;
+    background: no-repeat center;
+    height: 50px;
+    width: 22px;
+    cursor: pointer;
+  }
+  .menu-profile > span:nth-of-type(1) {
+    background-image: url(../assets/wishlist-icon.png);
+  }
+  .menu-profile > span:nth-of-type(2) {
+    background-image: url(../assets/bag.png);
+  }
+  .menu-profile > span:nth-of-type(3) {
+    background-image: url(../assets/profile-icon.png);
+  }
+  

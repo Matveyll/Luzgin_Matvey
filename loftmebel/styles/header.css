@@ -1,0 +1,36 @@
+.header {
+    background-color: #313131;
+    margin-bottom: 20px;
+    padding-left: 140px;
+    padding-right: 120px;
+  }
+  
+  .header ul li {
+    display: inline-block;
+    padding: 10px 30px 12px 30px;
+    color: white;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  .header-right {
+    float: right;
+  }
+  
+  .header-right li a,
+  .header-right li span {
+    padding-left: 10px;
+  }
+  
+  .header-right li:nth-child(1)::before {
+    content: url(../assets/phone.png);
+    position: relative;
+    top: 3px;
+  }
+  .header-right li:nth-child(2)::before {
+    content: url(../assets/delivery-icon.png);
+    position: relative;
+    top: 3px;
+  }
+  

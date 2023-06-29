@@ -1,0 +1,46 @@
+.main-navigation {
+    padding: 24px 40px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+  }
+  
+  .main-navigation > li {
+    display: inline-block;
+    text-indent: 33px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .main-navigation > li:not(:last-child) {
+    margin-right: 50px;
+  }
+  
+  .main-navigation > li:nth-of-type(1) {
+    background-image: url(../assets/kitchen-icon.png);
+  }
+  .main-navigation > li:nth-of-type(2) {
+    background-image: url(../assets/bedroom-icon.png);
+  }
+  .main-navigation > li:nth-of-type(3) {
+    background-image: url(../assets/livingroom-icon.png);
+    text-indent: 33px;
+  }
+  .main-navigation > li:nth-of-type(4) {
+    background-image: url(../assets/closet-icon.png);
+  }
+  .main-navigation > li:nth-of-type(5) {
+    background-image: url(../assets/office-icon.png);
+  }
+  .main-navigation > li:nth-of-type(6) {
+    background-image: url(../assets/childrensroom-icon.png);
+  }
+  .main-navigation > li:nth-of-type(7) {
+    margin-right: 45px;
+    text-indent: 0;
+  }
+  .main-navigation > li:nth-of-type(8) {
+    width: 1.27;
+    height: 15px;
+    background-image: url(../assets/etc.png);
+    background-position: right;
+  }
