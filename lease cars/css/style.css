@@ -1,30 +1,32 @@
 /* Убираю падинги, марджины*/
-html{
+html {
     box-sizing: border-box;
 }
 
-*, *::after, *::before{
+*,
+*::after,
+*::before {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
 }
 
 html,
-body{
+body {
     height: 100%;
 }
 
 /* Убираю точечки и ссылки*/
-ul{
-    list-style-type: none; 
+ul {
+    list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-.section-title{
+.section-title {
     margin-bottom: 50px;
     font-size: 48px;
     font-weight: 700;
@@ -32,33 +34,33 @@ a{
 }
 
 /* Будет ориентироваться на высоту своего родителя, то есть на "body" и тд до HTML*/
-.wrapper{
+.wrapper {
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 /* Задаю стили контейнеру (1180рх)*/
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
 /* Задаю стили броди, подключаю шрифты, выставляю рзмеры*/
-body{
+body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.3;
 }
 
-.header{
+.header {
     background-color: #151515;
 }
 
 /* убрал черный фон с главной страницы */
-.header-main{
+.header-main {
     background-color: transparent;
     position: absolute;
     z-index: 10;
@@ -67,7 +69,7 @@ body{
 }
 
 /*Задаю стили диву на строке 17 в index.html*/
-.header__inner{
+.header__inner {
     padding: 40px;
     padding-bottom: 45px;
     display: flex;
@@ -76,74 +78,74 @@ body{
 }
 
 /*Задаю стили менюхе и гапом задаю растояние*/
-.menu__list{
+.menu__list {
     display: flex;
     gap: 35px;
 }
 
 /* Стилизую текст в меню*/
-.menu__list-link{
+.menu__list-link {
     color: white;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-weight: 700;
 }
 
-.menu__list-link--active{
+.menu__list-link--active {
     color: #06f;
 }
 
-.footer{
+.footer {
     background-color: #151515;
     padding: 50px 0 32px;
     color: #fff;
 }
 
-.footer__menu-list{
+.footer__menu-list {
     max-width: 250px;
 }
 
-.footer__menu{
+.footer__menu {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
 
 }
 
-.footer__menu-title{
+.footer__menu-title {
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 20px;
 }
 
 /* берет свое значение и применяет его созеду благодаря "+" */
-.footer__menu-item + .footer__menu-item{
+.footer__menu-item+.footer__menu-item {
     padding-top: 20px;
 }
 
-.app{
+.app {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin-bottom: 52px;
 }
 
-.foteer__copy{
+.foteer__copy {
     max-width: 800px;
     margin: 0 auto 30px;
     text-align: center;
 }
 
-.copy__nav-list{
+.copy__nav-list {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
 
-.main{
+.main {
     flex-grow: 1;
 }
 
-.top{
+.top {
     color: #fff;
     text-align: center;
     padding-top: 250px;
@@ -154,13 +156,13 @@ body{
     right: 0;
 }
 
-.title{
+.title {
     padding-bottom: 40px;
     font-size: 96px;
     font-weight: 700;
 }
 
-.top__link{
+.top__link {
     background-color: #151515;
     padding: 23px;
     max-width: 430px;
@@ -171,9 +173,9 @@ body{
     font-weight: 700;
 }
 
-.swiper::after{
+.swiper::after {
     content: '';
-    background: rgba(21,21,21,.3);
+    background: rgba(21, 21, 21, .3);
     position: absolute;
     z-index: 5;
     left: 0;
@@ -182,14 +184,14 @@ body{
     top: 0;
 }
 
-.swiper-slide{
+.swiper-slide {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh; 
+    height: 100vh;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     width: 120px;
     height: 3px;
     background-color: #151515;
@@ -198,67 +200,66 @@ body{
 }
 
 
-.swiper-pagination-horizontal.swiper-pagination-bullets 
-.swiper-pagination-bullet {
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 15px;
-} 
+}
 
-.swiper-pagination-bullets.swiper-pagination-horizontal{
+.swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: 50px;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
     height: 6px;
     background-color: #fff;
 }
 
-.why-lease{
+.why-lease {
     padding: 150px 0;
 }
 
-.why-lease__list{
+.why-lease__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     text-align: center;
-} 
-
-.why-lease__item-img{
-   margin-bottom: 30px; 
 }
 
-.why-lease__item-title{
+.why-lease__item-img {
+    margin-bottom: 30px;
+}
+
+.why-lease__item-title {
     margin-bottom: 30px;
     font-size: 24px;
     font-weight: 700;
 }
 
-.why-lease__item-text{
-    text-align: left; 
+.why-lease__item-text {
+    text-align: left;
 }
 
-.how-does{
+.how-does {
     padding-bottom: 150px;
 }
 
-.how-does__inner{
-   max-width: 600px; 
-   margin: 0 auto;
+.how-does__inner {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.how__does-title{
+.how__does-title {
     font-size: 24px;
     font-weight: 700;
     padding-top: 50px;
 }
 
-.how__does-list{
+.how__does-list {
     padding: 50px 0 70px;
     counter-reset: myCounter;
 
 }
 
-.how__does-item{
+.how__does-item {
     list-style-type: none;
     width: 270px;
     position: relative;
@@ -268,12 +269,12 @@ body{
     min-height: 63px;
 }
 
-.how__does-item + .how__does-item{
+.how__does-item+.how__does-item {
     margin-top: 40px;
 }
 
 /* достучался до цифер и задал стили */
-.how__does-item::before{
+.how__does-item::before {
     counter-increment: myCounter;
     content: counter(myCounter);
     display: flex;
@@ -291,59 +292,59 @@ body{
     top: 0;
 }
 
-.video{
+.video {
     padding-bottom: 150px;
 
 }
 
-.video__title{
-   margin-bottom: 20px; 
+.video__title {
+    margin-bottom: 20px;
 }
 
-.video__text{
+.video__text {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 50px;
     text-align: center;
 }
 
-.video__content{
+.video__content {
     margin: 0 auto;
     display: block;
 }
 
-.important{
+.important {
     padding-bottom: 150px;
 }
 
-.important__title{
+.important__title {
     margin-bottom: 20px;
 }
 
-.important__text{
+.important__text {
     max-width: 580px;
     margin: 0 auto 50px;
 }
 
-.importal__list{
+.important__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.important__item-img{
+.important__item-img {
     margin-bottom: 20px;
 }
 
-.contacts{
+.contacts {
     padding: 100px 0 150px;
 }
 
-.contacts__title{
+.contacts__title {
     margin-bottom: 20px;
 
 }
 
-.contact__text{
+.contact__text {
     text-align: center;
     font-weight: 700;
     font-size: 24px;
@@ -351,7 +352,7 @@ body{
     padding: 0 100px;
 }
 
-.form{
+.form {
     max-width: 580px;
     margin: 0 auto;
     display: flex;
@@ -359,7 +360,7 @@ body{
     flex-wrap: wrap;
 }
 
-.form__input{
+.form__input {
     width: 270px;
     padding: 18px 20px;
     display: inline-block;
@@ -373,7 +374,7 @@ body{
 }
 
 .form__input::placeholder,
-.form__textarea::placeholder{
+.form__textarea::placeholder {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -382,7 +383,7 @@ body{
     opacity: 0.5;
 }
 
-.form__textarea{
+.form__textarea {
     width: 100%;
     resize: none;
     padding: 28px 20px;
@@ -396,7 +397,7 @@ body{
     margin-bottom: 50px;
 }
 
-.form__btn{
+.form__btn {
     text-transform: uppercase;
     color: #fff;
     background-color: #151515;
@@ -405,43 +406,46 @@ body{
     font-weight: 400;
     padding: 13px 61px;
     margin: 0 auto;
+    border: none;
 }
 
-.blog{
+.blog {
     padding-bottom: 150px;
 }
 
-.blog__items{
+.blog__items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     margin-bottom: 70px;
+    margin-top: 40px;
 }
 
-.blog__item{
+.blog__item {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.blog__item-img{
+.blog__item-img {
     margin-bottom: 30px;
     width: 100%;
 }
 
-.blog__items-title{
+.blog__items-title {
     flex-basis: 446px;
     font-size: 24px;
     font-weight: 700;
 }
 
-.blog__items-link{
+.blog__items-link {
     color: #fff;
     background-color: #06f;
-    padding: 4px 20px;;
+    padding: 4px 20px;
+    ;
 }
 
-.showmore-link{
+.showmore-link {
     text-transform: uppercase;
     background-color: #151515;
     padding: 13px;
@@ -452,22 +456,22 @@ body{
     display: block;
 }
 
-.choose{
+.choose {
     padding: 100px 0 150px;
 }
 
-.tabs{
+.tabs {
     margin-bottom: 70px;
 }
-.tabs__btn{
-    padding: 0 150px;
+
+.tabs__btn {
+    padding: 0 150px 100px;
     display: flex;
     justify-content: space-between;
     gap: 80px;
-    padding-bottom: 100px;
 }
 
-.tabs__btn-item{
+.tabs__btn-item {
     font-size: 24px;
     font-weight: 700;
     cursor: pointer;
@@ -476,56 +480,297 @@ body{
     padding: 0;
 }
 
-.tabs__btn-item--active{
-    color:#06f;
+.tabs__btn-item--active {
+    color: #06f;
 }
 
-.tabs__content-item{
+.tabs__content-item {
     display: none;
     grid-template-columns: repeat(4, 1fr);
     gap: 100px 40px;
 }
 
-.tabs__content-item.tabs__content-item--active{
+.tabs__content-item.tabs__content-item--active {
     display: grid;
 }
 
-.card{
+.card {
     text-align: center;
 
 }
 
-.card__content{
+.card__content {
     padding: 0 5px;
     border: 1px solid #06f;
     border-top: 0;
 }
 
-.card__img{
+.card__img {
     display: block;
 }
 
-.card__title{
+.card__title {
     padding-top: 20px;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.card__text{
+.card__text {
     margin-bottom: 20px;
 }
 
-.card__price{
+.card__price {
     margin-bottom: 20px;
     font-weight: 700;
-    font-size: 24px;;
+    font-size: 24px;
+    ;
 }
 
-.card__link{
+.card__link {
     display: block;
     color: #06f;
     border: 1px solid #06f;
     border-top: 0;
+}
 
+.menu__btn {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.menu__btn span {
+    height: 2px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.card__img {
+    width: 100%;
+}
+
+@media (max-width: 1180px) {
+    .important__list {
+        gap: 30px 20px;
+    }
+
+    .important__item-img {
+        width: 100%;
+    }
+
+    .tabs__content-item {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1040px) {
+    .video__content {
+        width: 100%;
+    }
+
+    .tabs__btn {
+        padding: 0 0 50px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 860px) {
+    .menu__btn {
+        display: flex;
+    }
+
+    .menu__btn,
+    .logo {
+        position: relative;
+        z-index: 10;
+    }
+
+    .menu__list {
+        position: absolute;
+        z-index: 5;
+        background-color: #151515;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding-top: 200px;
+        height: 100vh;
+        transform: translateY(-100%);
+        transition: transform .3s ease;
+    }
+
+    .menu__list.menu__list--active {
+        transform: translateY(0%);
+    }
+
+    .why-lease__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .important__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tabs__content-item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-style: 70px;
+    }
+
+    .top__link {
+        padding: 16px;
+        min-width: 360px;
+        font-style: 28px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 60px;
+    }
+
+    .swiper-pagination-bullet-active {
+        height: 4px;
+    }
+
+    .video__content {
+        height: 400px;
+    }
+
+    .footer__menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .tabs__content-item {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tabs__btn-item {
+        font-size: 18px;
+    }
+
+    .blog__item {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contacts{
+      padding: 50px 0; 
+    }
+    .form__input{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact__text{
+        padding: 0;
+    }
+}
+
+@media (max-width: 540px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .top__link {
+        max-width: 310px;
+        font-size: 24px;
+    }
+
+    .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullet {
+        margin: 0 10px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 35px;
+    }
+
+    .why-lease__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .why-lease {
+        padding: 50px 0;
+    }
+
+    .section-title {
+        font-size: 34px;
+    }
+
+    .how__does-list {
+        padding: 30px 0 40px;
+    }
+
+    .how-does {
+        padding-bottom: 50px;
+    }
+
+    .video {
+        padding-bottom: 50px;
+    }
+
+    .video__content {
+        height: 200px;
+    }
+
+    .how__does-item {
+        padding: 65px 0 19px 0;
+        margin-right: auto;
+    }
+
+    .how__does-item::before {
+        right: 0;
+        margin: 0 auto;
+        width: 50px;
+        height: 50px;
+        font-size: 32px;
+    }
+
+    .important__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .app,
+    .copy__nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copy__nav-list {
+        gap: 20px;
+    }
+
+    .blog__items-title {
+        margin-bottom: 10px;
+    }
+
+    .blog__item-link {
+        margin-left: auto;
+    }
+
+    .tabs__btn {
+        flex-direction: column;
+    }
+
+    .choose {
+        padding: 50px 0;
+    }
+
+    .tabs__content-item {
+        gap: 40px;
+    }
 }
